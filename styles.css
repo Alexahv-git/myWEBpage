@@ -1,0 +1,157 @@
+body {
+    margin: 0;
+    text-align: center;
+    font-family: "Dancing Script", serif;
+    background-color: #fffaf0;
+  }
+  
+  h1 {
+    color: #ff7f50;
+    font-size: 5.625rem;
+    margin: 50px auto 0 auto;
+    font-family: "Playfair Display", cursive;
+  }
+  
+  h2 {
+    color: #ffa500;
+    font-family: "Montserrat", sans-serif;
+    font-size: 2.5rem;
+    font-weight: normal;
+    padding-bottom: 10px;
+  }
+  
+  h3 {
+    color: #ff8c00;
+    font-family: "Montserrat", sans-serif;
+    margin-bottom: 10px;
+    text-align: left;
+  }
+  
+  p {
+    line-height: 2;
+    color: #333;
+  }
+  
+  hr {
+    border: dotted #ffd700 6px;
+    border-bottom: none;
+    width: 4%;
+    margin: 100px auto;
+  }
+  
+  a {
+    color: #ff7f50;
+    font-family: "Montserrat", sans-serif;
+    margin: 10px 20px;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: #ffa500;
+  }
+  
+  .top-container {
+    background-color: #fff5e1;
+    position: relative;
+    padding-top: 100px;
+  }
+  
+  .title-text {
+    margin-bottom: 20px;
+  }
+  
+  .bottom-Flower {
+    width: 500px;
+    height: auto;
+    margin-top: 30px;
+    border-radius: 20px;
+    object-fit: cover;
+  }
+  
+  /* רספונסיביות למסך קטן */
+  @media (max-width: 768px) {
+    .bottom-Flower {
+      width: 300px;
+    }
+  
+    .skill-item {
+      flex-direction: column;
+      text-align: center;
+    }
+  }
+  
+  .middle-container {
+    margin: 100px 0;
+  }
+  
+  .bottom-container {
+    background-color: #ffd700;
+    padding: 50px 0 20px;
+  }
+  
+  .intro {
+    width: 30%;
+    margin: auto;
+  }
+  
+  .contact-message {
+    width: 40%;
+    margin: 40px auto 60px;
+  }
+  
+  .btn {
+    background: #ff8c00;
+    border-radius: 8px;
+    font-family: "Montserrat", sans-serif;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #ffa500;
+  }
+  
+  .parent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+    margin: 100px auto 0;
+    gap: 3rem;
+  }
+  
+  
+  .skill-item {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    width: 100%;
+    max-width: 700px;
+    text-align: left;
+  }
+  
+  .skill-image {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid #ffd700;
+    padding: 5px;
+    background-color: #fff;
+  }
+  
+  .skill-text {
+    max-width: 400px;
+  }
+  
+  .footer-link {
+    color: #ffffff;
+    font-weight: bold;
+  }
+  
+  .footer-link:hover {
+    color: #ff7f50;
+  }
+  
